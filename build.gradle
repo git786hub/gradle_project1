@@ -36,7 +36,7 @@ uploadArchives {
   repositories {
     mavenDeployer {
       repository(
-        url: "${nexusUrl}repository/hello-releases/") {  
+        url: "http://localhost:8081/repository/hello-releases/") {  
           authentication(userName: nexusUsername, password: nexusPassword)
       }
 	        pom.version = "0.1.0"
