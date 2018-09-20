@@ -36,9 +36,7 @@ uploadArchives {
   repositories {
     mavenDeployer {
       repository(
-        url: "http://localhost:8081/repository/hello-releases/") {  
-          authentication(userName: nexusUsername, password: nexusPassword)
-      }
+        url: "http://localhost:8081/repository/hello-releases/")
 	        pom.version = "0.1.0"
              pom.artifactId = "gs-gradle"
              pom.groupId =    "com.example"
