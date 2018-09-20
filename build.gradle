@@ -51,7 +51,7 @@ uploadArchives {
       }
 	        pom.version = "0.1.0"
              pom.artifactId = "gs-gradle"
-             pom.groupId =    "com.example"
+             pom.groupId =    "com.example1"
     }
   }
 }
